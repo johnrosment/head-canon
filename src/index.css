@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+/* Head Canon — Swiss / International Typographic Style tokens. */
+@theme {
+  --color-canvas: #f0ead9;
+  --color-paper: #fbf9f2;
+  --color-ink: #0b0b0b;
+  --color-graphite: #4a4a48;
+  --color-hairline: #c7c0ae;
+  --color-turf: #2f6138;
+  --color-turf-deep: #234a2a;
+  --color-blueprint: #1e40af;
+
+  --font-sans:
+    "Helvetica Neue", Helvetica, "Inter", "Segoe UI", Arial, sans-serif;
+}
+
+:root {
+  --hc-page: var(--color-canvas);
+  --hc-surface: var(--color-paper);
+
+  color-scheme: light;
+  font-family: var(--font-sans);
+  font-synthesis-weight: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--hc-page);
+  color: var(--color-ink);
+}
+
+/* Square corners everywhere: no rounded-card dashboard aesthetic. */
+@layer base {
+  * {
+    border-radius: 0;
+  }
+
+  button {
+    font: inherit;
+    cursor: pointer;
+  }
+}
+
+@utility offset-shadow {
+  box-shadow: 8px 8px 0 0 var(--color-ink);
+}
+
+@utility offset-shadow-sm {
+  box-shadow: 4px 4px 0 0 var(--color-ink);
+}
+
+@utility micro-label {
+  font-size: 0.625rem;
+  line-height: 1;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Vertical rail type for the ROLL THE TAPE panel. */
+@utility vertical-rail {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+/*
+ * Long generated prose varies in length from roll to roll. Cards that hold it
+ * are fixed height with an internal scroll so the page never jumps when the
+ * generate button is pressed repeatedly.
+ */
+/*
+ * Cards are sized to their longest possible content, so these panes should
+ * never actually scroll. `overscroll-behavior: auto` is deliberate: if one ever
+ * does, the wheel still hands off to the page instead of trapping the pointer.
+ */
+@utility prose-pane {
+  overflow-y: auto;
+  overscroll-behavior: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-hairline) transparent;
+}
+
+@utility fade-pane {
+  overflow-y: auto;
+  overscroll-behavior: auto;
+  scrollbar-width: none;
+}
