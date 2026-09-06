@@ -423,6 +423,11 @@ const BLACK_NAMES: NamePool = {
     "Kareem", "Demarcus", "Javion", "Kentrell", "Jaquez", "Deonte", "Antonio",
     "Jaivon", "Marquez", "Deshaun", "Jamir", "Kyrell", "Tobias", "Jerimiah",
     "Kamari", "Deundre", "Amare", "Javeon", "Malikai",
+    "Jabari", "Kwame", "Andre", "Reggie", "Corey", "Maurice", "Jerome",
+    "Roderick", "Sherman", "Tyrone", "Marquis", "Devin", "Jalil", "Kenyon",
+    "Darnell", "Reginald", "Emmitt", "Julius", "Maxwell", "Deshon", "Jayden",
+    "Kobie", "Trevell", "Damarcus", "Jaleel", "Kwabena", "Sekou", "Otis",
+    "Cornell", "Marquan", "Jaron", "Keon", "Tremayne", "Davonte", "Jamarion",
   ],
   last: [
     "Whitfield", "Beasley", "Colston", "Gaither", "Hollins", "Mabry",
@@ -438,6 +443,11 @@ const BLACK_NAMES: NamePool = {
     "Waymer", "Yarbrough", "Zanders", "Abercrombie", "Bunche", "Claxton", "Deloach",
     "Etheridge", "Fontenot", "Glasco", "Hargress", "Jefferies", "Kilgore", "Loury",
     "Mabson", "Outlaw", "Parham", "Quarterman", "Rivers",
+    "Threadgill", "Applewhite", "Bonner", "Cotten", "Dubose", "Elzy", "Faulk",
+    "Goss", "Holston", "Ivey", "Jasper", "Kittles", "Lofton", "Meadows",
+    "Nobles", "Onque", "Prather", "Quick", "Reddick", "Simms", "Threat",
+    "Underdown", "Vines", "Ware", "Yeldon", "Zeno", "Ballard", "Chisolm",
+    "Dortch", "Elston", "Farrow", "Grissom", "Hankerson", "Ingram", "Joyner",
   ],
 };
 
@@ -461,6 +471,11 @@ const WHITE_NAMES: NamePool = {
     "Jamison", "Dennison", "Morrison", "Rollins", "Collins", "Hollins", "Mullins",
     "Rawlings", "Stallings", "Hastings", "Jennings", "Cummings", "Flemings", "Branning",
     "Manning", "Fanning", "Tanning",
+    "Weber", "Cassidy", "Emerson", "Marshall", "Sterling", "Booker", "Truett",
+    "Camden", "Wilder", "Ledger", "Maverick", "Justice", "Beckham", "Kingsley",
+    "Ridge", "Case", "Fox", "Hollis", "Otto", "Vance", "Rowdy",
+    "Bodie", "Chandler", "Dodge", "Ellis", "Griffith", "Huck", "Ike",
+    "Jett", "Kellan", "Loman", "Mickey", "Nash", "Wilkes", "Yates",
   ],
   last: [
     "Ashcroft", "Bramble", "Corliss", "Deakins", "Ellender", "Fairbanks",
@@ -480,6 +495,11 @@ const WHITE_NAMES: NamePool = {
     "Whitcomb", "Ledbetter", "Stovall", "Garrick", "Holcomb", "Braddock", "Thorne",
     "Ridgeway", "Colfax", "Wexford", "Bramwell", "Ashby", "Hutchins", "Rutledge",
     "Sinclair", "Wentworth",
+    "Ambrose", "Blackburn", "Cavanaugh", "Delahunt", "Eastwood", "Farnsworth", "Gladstone",
+    "Hargis", "Ives", "Kettering", "Lambeth", "Marchetti", "Norcross", "Ostrander",
+    "Pettibone", "Quimby", "Ravenscroft", "Standish", "Vandyke", "Upshaw", "Winthrop",
+    "Axtell", "Beauregard", "Chatsworth", "Duckworth", "Ellsworth", "Farrington", "Grantham",
+    "Hollowell", "Ingleside", "Jessup", "Kirtland", "Larrabee", "Marchbanks", "Northcutt",
   ],
 };
 
@@ -495,6 +515,11 @@ const LATINO_NAMES: NamePool = {
     "Daniel", "Emilio", "Felipe", "Guillermo", "Humberto", "Israel", "Jaime",
     "Leonardo", "Martin", "Nestor", "Octavio", "Pedro", "Raul", "Rodrigo",
     "Samuel", "Tobias", "Valentin", "Xavier", "Yahir", "Zacarias", "Emmanuel",
+    "Alexis", "Angel", "Bernardo", "Cristobal", "Damian", "Elias", "Francisco",
+    "Gustavo", "Horacio", "Ignacio", "Jesus", "Lorenzo", "Mauricio", "Nicolas",
+    "Osvaldo", "Patricio", "Rigoberto", "Silvestre", "Teodoro", "Urbano", "Wilfredo",
+    "Abel", "Bartolo", "Cirilo", "Dario", "Efrain", "Florencio", "Geraldo",
+    "Herminio", "Isidro", "Jacinto", "Leopoldo", "Modesto", "Norberto", "Rogelio",
   ],
   last: [
     "Alvarado", "Betancourt", "Carrillo", "Delgado", "Escamilla",
@@ -508,6 +533,11 @@ const LATINO_NAMES: NamePool = {
     "Pacheco", "Quiroz", "Reyes", "Salazar", "Torres", "Uribe", "Vasquez",
     "Zavala", "Aponte", "Barrera", "Cazares", "Delacruz", "Espino", "Frias",
     "Guerra", "Hurtado", "Jimenez", "Lara", "Marroquin", "Nava", "Olvera",
+    "Contreras", "Solis", "Rangel", "Cervantes", "Villareal", "Zuniga", "Mercado",
+    "Palacios", "Robledo", "Camacho", "Escobedo", "Guerrero", "Lugo", "Marin",
+    "Orozco", "Paredes", "Quintanilla", "Rendon", "Serrano", "Trejo", "Valenzuela",
+    "Zaragoza", "Aranda", "Bravo", "Cardenas", "Duarte", "Elizondo", "Franco",
+    "Godinez", "Huerta", "Lozada", "Manzano", "Nunez", "Olguin", "Pina",
   ],
 };
 
@@ -522,6 +552,11 @@ const ASIAN_AMERICAN_NAMES: NamePool = {
     "Nelson", "Oliver", "Peter", "Raymond", "Steven", "Timothy", "Victor",
     "William", "Kenny", "Derek", "Edwin", "Franklin", "Gilbert", "Harold",
     "Jeremy", "Kyle", "Leon", "Norman", "Phillip", "Russell", "Simon",
+    "Wesley", "Adam", "Bradley", "Dennis", "Edmund", "Frederick", "Howard",
+    "Jonathan", "Keith", "Larry", "Melvin", "Neil", "Perry", "Ronald",
+    "Stanley", "Terrence", "Vincent", "Wallace", "Allan", "Barry", "Clifford",
+    "Douglas", "Ernest", "Gary", "Herbert", "Irwin", "Jerry", "Kenneth",
+    "Lloyd", "Milton", "Nolan", "Owen", "Paul", "Quentin", "Roland",
   ],
   last: [
     "Nakamura", "Chin", "Kaneshiro", "Matsuda", "Fujimoto", "Villanueva",
@@ -533,6 +568,11 @@ const ASIAN_AMERICAN_NAMES: NamePool = {
     "Inoue", "Kato", "Yamada", "Nakagawa", "Endo", "Aoki", "Hirano",
     "Le", "Vo", "Dang", "Truong", "Bui", "Ly", "Cao",
     "Doan", "Mai", "Ngo", "Lam", "Ha", "Duong", "Phan",
+    "Yamaguchi", "Fukushima", "Hattori", "Ishida", "Kimura", "Matsui", "Nishimura",
+    "Okada", "Shimizu", "Takahashi", "Ueda", "Yokoyama", "Abe", "Baba",
+    "Enomoto", "Goto", "Imai", "Kojima", "Maeda", "Nomura", "Oshiro",
+    "Saito", "Uehara", "Wada", "Ando", "Fukuda", "Hori", "Ikeda",
+    "Kudo", "Miura", "Nishida", "Onishi", "Sano", "Toyama", "Ishii",
   ],
 };
 
@@ -543,6 +583,11 @@ const MIXED_EXTRA: NamePool = {
     "Kairo", "Zane", "Rune", "Cove", "Onyx", "Phoenix", "Kase",
     "Bex", "Wren", "Storm", "Adonis", "Maximus", "Titus", "Atlas",
     "Orion", "Kingston", "Legend", "Messiah", "Kylo", "Zaid",
+    "Ezra", "Ronin", "Kade", "Zephyr", "Axl", "Bowie", "Colby",
+    "Dax", "Ellison", "Fenix", "Gage", "Ira", "Jax", "Kace",
+    "Leyton", "Milo", "Nyx", "Ocean", "Rome", "Sage", "Tate",
+    "Uriah", "Vale", "Wilder", "Xen", "Yael", "Zed", "Bram",
+    "Cruz", "Dane",
   ],
   last: [
     "Okafor-Reed", "Santos-Hill", "Bell-Ortiz", "Nakagawa-Price",
@@ -551,6 +596,11 @@ const MIXED_EXTRA: NamePool = {
     "Reyes-Kim", "Alama", "Faleolo", "Tuilagi", "Kahale", "Solomona", "Fonoti",
     "Manu", "Iosefo", "Tuputala", "Alofa", "Vaifale", "Kalani", "Makoa",
     "Kealii", "Onyekachi", "Adeyemi", "Osei", "Boateng", "Mensah",
+    "Kalama", "Naeole", "Puana", "Akana", "Kahananui", "Lopaka", "Maluia",
+    "Nahale", "Palakiko", "Uluave", "Fifita", "Halavatau", "Ika", "Kaho",
+    "Latu", "Moimoi", "Ngata", "Palu", "Sione", "Taumalolo", "Uili",
+    "Vaega", "Wolfgramm", "Aumua", "Betham", "Gafa", "Hafoka", "Isaako",
+    "Faapito", "Leaupepe",
   ],
 };
 
